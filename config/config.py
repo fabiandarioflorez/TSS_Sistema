@@ -5,7 +5,7 @@ class Config(object):
     SECRET_KEY = 'Key'
     DEBUG = True
     TESTING = False
-    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:@localhost:3306/pyalmacen"
+    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:@localhost:3306/TSS_db_sistema"
     SQLALCHEMY_TRACK_MODIFICATIONS = False 
 
 class ProductionConfig(Config):
