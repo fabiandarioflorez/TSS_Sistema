@@ -13,9 +13,6 @@ from werkzeug.security import check_password_hash, generate_password_hash
 
 from app.utilities.model.role import RolUser
 from app.utilities.model.estado import Estado
-# class RolUser(enum.Enum):
-#     regular='regular'
-#     admin='admin'
 
 class User(db.Model):
     __tablename__='users'
